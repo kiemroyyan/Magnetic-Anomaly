@@ -21,3 +21,13 @@ peta-anomali-magnetik/
 ├── .gitignore # Daftar file/folder yang diabaikan Git
 └── requirements.txt # Daftar dependensi Python
 
+## 🧩 Struktur Proyek
+peta-anomali-magnetik/
+│
+├── data/ # Folder penyimpanan data mentah
+├── src/ # Folder untuk script Python (proses data, filtering, visualisasi)
+├── output/ # Folder hasil pemrosesan dan visualisasi peta
+│
+├── README.md # Dokumentasi utama proyek
+├── .gitignore # Daftar file/folder yang diabaikan Git
+└── requirements.txt # Daftar dependensi Python
