@@ -3,13 +3,3 @@ numpy
 pandas
 matplotlib
 scipy
-
-# Geospatial / grid processing (optional, tapi sangat berguna)
-pygmt
-geopandas
-
-# Data visualization enhancement
-seaborn
-
-# File handling & IO
-openpyxl  # buat baca file Excel
