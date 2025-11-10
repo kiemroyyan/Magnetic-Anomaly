@@ -1,0 +1,65 @@
+# =========================
+# PYTHON CACHE & TEMP FILES
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.egg-info/
+*.egg
+*.log
+
+# =========================
+# VIRTUAL ENVIRONMENT
+# =========================
+.env/
+venv/
+env/
+ENV/
+.venv/
+
+# =========================
+# JUPYTER / NOTEBOOK CHECKPOINTS
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# DATA (mentah atau hasil ekspor besar)
+# =========================
+data/raw/
+data/*.csv
+data/*.txt
+data/*.dat
+data/*.xlsx
+!data/.gitkeep  # biar folder tetap ada walau kosong
+
+# =========================
+# OUTPUT / HASIL VISUALISASI
+# =========================
+output/
+!output/.gitkeep  # biar folder tetap ada di repo
+
+# =========================
+# EDITOR / IDE SETTINGS
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# SYSTEM FILES
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# BACKUP / TEMPORARY FILES
+# =========================
+*.bak
+*.tmp
+*.old
+
+# =========================
+# TEST / SIMULATION FILES
+# =========================
+test_output/
+debug/
