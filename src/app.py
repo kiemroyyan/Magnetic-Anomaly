@@ -201,8 +201,8 @@ class AnomaliMagnetikApp:
 
         self.contour_ax.grid(True, color='white', linewidth=0.7, alpha=0.7)
 
-        self.contour_ax.set_xlabel("Easting (m)", fontsize=13, color='black', weight='bold')
-        self.contour_ax.set_ylabel("Northing (m)", fontsize=13, color='black', weight='bold')
+        self.contour_ax.set_xlabel("Easting (x)", fontsize=13, color='black', weight='bold')
+        self.contour_ax.set_ylabel("Northing (y)", fontsize=13, color='black', weight='bold')
         self.contour_ax.tick_params(colors='black', labelsize=11)
 
         from matplotlib.ticker import StrMethodFormatter
